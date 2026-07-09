@@ -15,8 +15,8 @@ flowchart LR
     end
 
     subgraph Processamento
-        F["DataFrame 2024"]
-        G["DataFrame 2025"]
+        F["DataFrame_<<param_ano>>"]
+        G["DataFrame_<<param_ano>>"]
         H["Tratamento"]
         I["Padronização"]
     end
