@@ -1,16 +1,81 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# ==========================================================
+# INFORMAÇÕES DO PROJETO
+# ==========================================================
+
 [project]
 name = "anatel-data-platform"
 version = "0.1.0"
-description = "ETL para dados públicos da ANATEL"
+description = "Plataforma de Engenharia de Dados para consumo dos dados públicos da ANATEL."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+
 authors = [
-    {name = "Gabriel Prata"}
+    { name = "Gabriel Prata" }
 ]
-requires-python = ">=3.11"
+
+keywords = [
+    "python",
+    "etl",
+    "anatel",
+    "telecom",
+    "data-engineering",
+    "power-bi",
+    "analytics"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License"
+]
 
 dependencies = [
-    "pandas",
-    "requests",
-    "sqlalchemy",
-    "pyarrow",
-    "psycopg2-binary"
+    "pandas>=2.2",
+    "requests>=2.32",
+    "sqlalchemy>=2.0",
+    "pyarrow>=20.0",
+    "psycopg2-binary>=2.9"
 ]
+
+# ==========================================================
+# SETUPTOOLS
+# ==========================================================
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# ==========================================================
+# PYTEST
+# ==========================================================
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+testpaths = [
+    "tests"
+]
+
+# ==========================================================
+# BLACK
+# ==========================================================
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+# ==========================================================
+# RUFF
+# ==========================================================
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
