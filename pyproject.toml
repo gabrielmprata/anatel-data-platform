@@ -1,1 +1,16 @@
+[project]
+name = "anatel-data-platform"
+version = "0.1.0"
+description = "ETL para dados públicos da ANATEL"
+authors = [
+    {name = "Gabriel Prata"}
+]
+requires-python = ">=3.11"
 
+dependencies = [
+    "pandas",
+    "requests",
+    "sqlalchemy",
+    "pyarrow",
+    "psycopg2-binary"
+]
