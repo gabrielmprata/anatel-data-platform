@@ -134,3 +134,12 @@ Objetivo final da plataforma:
 * Testes automatizados
 * Documentação completa
 * Integração contínua com GitHub Actions
+
+## Futuras Evoluções
+
+### Sistema de Logging Avançado
+
+* Inclusão de metadados (`extra`) nas mensagens de log.
+* Geração automática de um arquivo `summary.json` ao final de cada execução.
+* Métricas de desempenho da pipeline (tempo, linhas processadas, arquivos gerados e status).
+* Integração futura com dashboards de monitoramento.
