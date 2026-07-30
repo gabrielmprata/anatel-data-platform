@@ -73,3 +73,11 @@ architecture-beta
     align column src_b db_two brief
     align column src_c db_three
 ```
+
+```mermaid
+treeView-beta
+    src/
+        index.js ## app entry point
+        config.ts ## runtime configuration
+    package.json ## project manifest
+``` 
