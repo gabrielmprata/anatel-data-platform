@@ -58,9 +58,9 @@ architecture-beta
         service analyst(server)[Analyst] in output
         service delivery(cloud)[Delivery] in output
 
-    src_a:B --> T:Aiven
-    src_b:B --> T:Neon
-    src_c:B --> T:Aiven
+    src_a:B --> T:db_one
+    src_b:B --> T:db_two
+    src_c:B --> T:db_three
     db_two:B --> T:brief
     brief:R --> L:analyst
     analyst:R --> L:delivery
