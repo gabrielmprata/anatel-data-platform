@@ -45,7 +45,7 @@ flowchart LR
 architecture-beta
     group sources(cloud)[Sources]
         service src_a(server)[SCM] in sources
-        service src_b(server)[Source B] in sources
+        service src_b(server)[Reclamacoes] in sources
         service src_c(server)[SMP] in sources
 
     group storage(database)[Storage]
