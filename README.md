@@ -49,9 +49,9 @@ architecture-beta
         service src_c(server)[SMP] in sources
 
     group storage(database)[Storage]
-        service db_one(database)[DB One] in storage
-        service db_two(database)[DB Two] in storage
-        service db_three(database)[DB Three] in storage
+        service db_one(database)[Aiven] in storage
+        service db_two(database)[Neon] in storage
+        service db_three(database)[Aiven] in storage
 
     group output(disk)[Output]
         service brief(disk)[Brief] in output
