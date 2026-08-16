@@ -8,8 +8,6 @@ O projeto segue o padrão **Keep a Changelog** e utiliza **Versionamento Semânt
 
 ## [0.1.0] - 2026-07-09
 
-### 🎉 Primeira versão da plataforma
-
 Esta versão estabelece a fundação arquitetural do projeto.
 
 ### Adicionado
