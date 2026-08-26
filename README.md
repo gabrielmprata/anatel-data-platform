@@ -76,3 +76,30 @@ architecture-beta
 
 # Painel Telefonia Móvel
 
+---
+
+# Fase 1 — Fundação da Plataforma
+
+## Sprint 1.1 ✅
+
+* [x] Estrutura inicial do projeto
+* [x] Ambiente virtual
+* [x] Git
+* [x] Requirements
+* [x] .gitignore
+* [x] Arquitetura inicial
+
+---
+
+## Sprint 1.2
+
+Objetivo:
+
+Construir a infraestrutura básica da biblioteca.
+
+Entregas:
+
+* [x] `config.py`
+* [x] `log.py`
+* [x] `extract.py`
+* [x] `transform.py`
