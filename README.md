@@ -114,7 +114,7 @@ Construir o modelo relaciona (Star Schema).
 
 Entregas:
 
-* [x] Estrutura inicial do projeto
+* [x] tabelas
 * [x] Ambiente virtual
 * [x] Git
 * [x] Requirements
