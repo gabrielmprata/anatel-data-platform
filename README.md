@@ -91,7 +91,7 @@ architecture-beta
 
 ---
 
-## Sprint 1.2
+## Sprint 1.2 ✅
 
 Objetivo:
 
@@ -103,3 +103,22 @@ Entregas:
 * [x] `log.py`
 * [x] `extract.py`
 * [x] `transform.py`
+
+---
+
+## Sprint 1.3 
+
+Objetivo:
+
+Construir o modelo relaciona (Star Schema).
+
+Entregas:
+
+* [x] Estrutura inicial do projeto
+* [x] Ambiente virtual
+* [x] Git
+* [x] Requirements
+* [x] .gitignore
+* [x] Arquitetura inicial
+
+---
