@@ -110,15 +110,17 @@ Entregas:
 
 Objetivo:
 
-Construir o modelo relaciona (Star Schema).
+Construir o modelo relacional (Star Schema).
 
 Entregas:
 
-* [x] tabelas
-* [x] Ambiente virtual
-* [x] Git
-* [x] Requirements
-* [x] .gitignore
-* [x] Arquitetura inicial
+* [x] df_acessos_movel
+* [x] df_reclamacao
+* [x] dm_geracao
+* [x] dm_tipo_produto
+* [x] dm_porte_prestadora
+* [x] dm_populacao
+* [x] dm_modalidade_cobranca
+* [x] dm_calendario
 
 ---
