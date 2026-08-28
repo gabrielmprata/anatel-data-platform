@@ -123,4 +123,18 @@ Entregas:
 * [x] dm_modalidade_cobranca
 * [x] dm_calendario
 
+## Sprint 1.4
+
+Objetivo:
+
+Construir esboço da estrutura do painel
+
+Entregas:
+
+* [x] Cards
+* [x] gráficos
+* [x] layout
+* [x] icones
+
+
 ---
