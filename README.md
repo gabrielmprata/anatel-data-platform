@@ -138,3 +138,20 @@ Entregas:
 
 
 ---
+## Sprint 1.5
+
+Objetivo:
+
+Construir medidas DAX
+
+Entregas:
+
+* [x] Totais
+* [x] Anterior
+* [x] Variação
+* [x] Market share
+* [ ] Crescimento
+* [ ] Média
+
+
+---
