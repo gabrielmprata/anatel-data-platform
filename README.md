@@ -150,7 +150,7 @@ Entregas:
 * [x] Anterior
 * [x] Variação
 * [x] Market share
-* [ ] Crescimento
+* [x] Crescimento
 * [ ] Média
 
 
