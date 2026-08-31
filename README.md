@@ -155,3 +155,23 @@ Entregas:
 
 
 ---
+
+## Sprint 1.6
+
+Objetivo:
+
+Design Figma
+
+Entregas:
+
+* [x] Cabeçalho
+* [ ] Cards
+* [ ] Icones
+* [ ] Panorama 
+* [ ] Pos
+* [ ] Pre
+* [ ] Dados
+* [ ] Reclamacoes
+
+
+---
