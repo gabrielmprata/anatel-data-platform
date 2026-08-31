@@ -173,5 +173,24 @@ Entregas:
 * [ ] Dados
 * [ ] Reclamacoes
 
+---
+
+## Sprint 1.7    
+
+Objetivo:
+
+Construir Gráficos
+
+Entregas:
+
+* [x] Cards
+* [x] Donut
+* [x] Quadro
+* [x] Historico
+* [x] Mapa
+* [ ] Crescimento
+* [ ] Market Share
+* [ ] Tabela
+
 
 ---
