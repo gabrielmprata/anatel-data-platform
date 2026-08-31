@@ -188,8 +188,8 @@ Entregas:
 * [x] Quadro
 * [x] Historico
 * [x] Mapa
-* [ ] Crescimento
-* [ ] Market Share
+* [x] Crescimento
+* [x] Market Share
 * [ ] Tabela
 
 
