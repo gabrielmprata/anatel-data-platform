@@ -106,7 +106,7 @@ Entregas:
 
 ---
 
-## Sprint 1.3 
+## Sprint 1.3 ✅
 
 Objetivo:
 
@@ -123,7 +123,7 @@ Entregas:
 * [x] dm_modalidade_cobranca
 * [x] dm_calendario
 
-## Sprint 1.4
+## Sprint 1.4 ✅
 
 Objetivo:
 
