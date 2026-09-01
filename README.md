@@ -160,7 +160,7 @@ Entregas:
 
 Objetivo:
 
-Design Figma
+Wireframe Figma
 
 Entregas:
 
