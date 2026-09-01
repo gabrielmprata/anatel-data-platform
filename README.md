@@ -166,7 +166,7 @@ Entregas:
 
 * [x] Cabeçalho
 * [x] Cards
-* [ ] Icones
+* [X] Icones
 * [ ] Panorama 
 * [ ] Pos
 * [ ] Pre
