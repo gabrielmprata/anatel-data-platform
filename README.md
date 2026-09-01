@@ -151,7 +151,7 @@ Entregas:
 * [x] Variação
 * [x] Market share
 * [x] Crescimento
-* [ ] Média
+* [x] Média
 
 
 ---
@@ -190,7 +190,7 @@ Entregas:
 * [x] Mapa
 * [x] Crescimento
 * [x] Market Share
-* [ ] Tabela
+* [x] Tabela
 
 
 
