@@ -165,7 +165,7 @@ Design Figma
 Entregas:
 
 * [x] Cabeçalho
-* [ ] Cards
+* [x] Cards
 * [ ] Icones
 * [ ] Panorama 
 * [ ] Pos
