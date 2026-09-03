@@ -167,7 +167,7 @@ Entregas:
 * [x] Cabeçalho
 * [x] Cards
 * [X] Icones
-* [ ] Panorama 
+* [x] Panorama 
 * [ ] Pos
 * [ ] Pre
 * [ ] Dados
