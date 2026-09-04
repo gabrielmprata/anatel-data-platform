@@ -168,7 +168,7 @@ Entregas:
 * [x] Cards
 * [X] Icones
 * [x] Panorama 
-* [ ] Pos
+* [x] Pos
 * [ ] Pre
 * [ ] Dados
 * [ ] Reclamacoes
