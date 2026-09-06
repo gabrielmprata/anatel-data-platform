@@ -192,5 +192,14 @@ Entregas:
 * [x] Market Share
 * [x] Tabela
 
+## Sprint 1.8    
 
+Objetivo:
+
+
+
+Entregas:
+
+* [ ] Cards
+* [ ] Donut
 
