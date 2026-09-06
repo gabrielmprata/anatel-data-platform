@@ -200,6 +200,5 @@ Objetivo:
 
 Entregas:
 
-* [ ] Cards
-* [ ] Donut
+* [ ] 
 
