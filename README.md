@@ -14,7 +14,7 @@ flowchart LR
         E["Leitura dos CSVs"]
     end
 
-    subgraph Processamento
+    subgraph Processamento/Tratamento
         F["DataFrame_<<param_ano>>"]
         G["DataFrame_<<param_ano>>"]
         H["Tratamento"]
