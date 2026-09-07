@@ -7,7 +7,7 @@ flowchart LR
         A["Portal de Dados Abertos da ANATEL"]
     end
 
-    subgraph ETL
+    subgraph Extrair
         B["Download do ZIP"]
         C["BytesIO"]
         D["ZipFile"]
