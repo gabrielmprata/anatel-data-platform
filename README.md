@@ -152,6 +152,7 @@ Entregas:
 * [x] Market share
 * [x] Crescimento
 * [x] Média
+* [x] Calendario
 
 
 ---
