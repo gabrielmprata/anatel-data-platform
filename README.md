@@ -138,7 +138,7 @@ Entregas:
 
 
 ---
-## Sprint 1.5
+## Sprint 1.5 ✅
 
 Objetivo:
 
