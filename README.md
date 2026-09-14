@@ -176,7 +176,7 @@ Entregas:
 
 ---
 
-## Sprint 1.7    
+## Sprint 1.7 ✅   
 
 Objetivo:
 
