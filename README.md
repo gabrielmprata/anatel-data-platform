@@ -170,7 +170,7 @@ Entregas:
 * [X] Icones
 * [x] Panorama 
 * [x] Pos
-* [ ] Pre
+* [X] Pre
 * [ ] Dados
 * [ ] Reclamacoes
 
