@@ -171,7 +171,7 @@ Entregas:
 * [x] Panorama 
 * [x] Pos
 * [X] Pre
-* [ ] Dados
+* [X] Dados
 * [ ] Reclamacoes
 
 ---
