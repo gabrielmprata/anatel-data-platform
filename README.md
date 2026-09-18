@@ -197,7 +197,7 @@ Entregas:
 
 Objetivo:
 
-Dependencias dos filtros
+Dependencias dos filtros nos gráficos
 
 Entregas:
 
