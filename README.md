@@ -193,6 +193,8 @@ Entregas:
 * [x] Market Share
 * [x] Tabela
 
+---
+
 ## Sprint 1.8    
 
 Objetivo:
@@ -201,6 +203,7 @@ Dependencias dos filtros nos gráficos
 
 Entregas:
 
+---
 
 ## Sprint 1.9   
 
