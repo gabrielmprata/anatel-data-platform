@@ -122,7 +122,7 @@ Entregas:
 * [x] dm_populacao
 * [x] dm_modalidade_cobranca
 * [x] dm_calendario
-* [ ] df_reclamacao smp
+* [ ] df_reclamacao_smp
 
 ## Sprint 1.4 ✅
 
