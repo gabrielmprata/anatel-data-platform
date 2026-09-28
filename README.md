@@ -1,3 +1,9 @@
+# 📡 ANATEL — Pipeline de Dados de Telecomunicações
+
+Pipeline de coleta, transformação e carga de dados abertos da **ANATEL** (Agência Nacional de Telecomunicações), com destino em um banco **PostgreSQL na nuvem** e visualização em **Power BI**.
+
+---
+
 # Em desenvolvimento
 
 ```mermaid
