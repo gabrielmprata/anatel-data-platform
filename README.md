@@ -4,7 +4,86 @@ Pipeline de coleta, transformação e carga de dados abertos da **ANATEL** (Agê
 
 ---
 
-# Em desenvolvimento
+## 🔄 Arquitetura
+
+```mermaid
+flowchart TD
+    A[("📡 ANATEL<br/>ZIP / Painel Interativo")] --> B
+
+    subgraph B["🧠 Notebook (Google Colab)"]
+        direction TB
+        B1["extract.py<br/>coleta os dados brutos"] --> B2["transform.py<br/>limpeza, padronização e agregação"]
+        B2 --> B3["load.py<br/>carga no banco"]
+    end
+
+    B --> C[("🐘 Neon Postgres<br/>(nuvem)")]
+    C --> D["📊 Power BI"]
+
+    style A fill:#0b5394,color:#fff,stroke:#073763
+    style C fill:#336699,color:#fff,stroke:#1c3d5a
+    style D fill:#f9a825,color:#000,stroke:#c17900
+    style B fill:#f4f4f4,stroke:#999
+```
+
+
+
+
+---
+
+## 📊 Fontes de dados
+
+| Fonte | Tipo de coleta | Tabela no Neon |
+|---|---|---|
+| Acessos de Banda Larga Fixa | Download de ZIP (dados abertos) | `acessos_banda_larga_fixa` |
+| Reclamações de consumidores (SCM) | Download de ZIP (dados abertos) | `reclamacoes_banda_larga_fixa` |
+| Acessos de Telefonia Móvel | Download de ZIP (dados abertos), leitura em chunks | `acessos_telefonia_movel` |
+| Evolução histórica por Meio de Acesso (desde 2011) | Automação de navegador (Playwright) sobre o painel interativo da ANATEL | `evolucao_meio_acesso_historico` |
+| População estimada por UF/Região (IBGE) | API do SIDRA + API de Localidades (IBGE) | `dm_populacao` |
+
+> A fonte de Evolução por Meio de Acesso é um caso especial: esse dado histórico só está disponível dentro de um gráfico do painel público da ANATEL, sem exportação direta via arquivo. A coleta automatiza o clique no botão "Exportar Dados" do próprio painel. Veja os detalhes em [`docs/AUTOMACAO_NAVEGADOR_DOCUMENTACAO.md`](./docs/AUTOMACAO_NAVEGADOR_DOCUMENTACAO.md).
+>
+> A fonte de Telefonia Móvel tem o maior volume do projeto (10+ milhões de linhas por semestre) e exigiu leitura em chunks, agregação incremental e um checkpoint de qualidade de dados. Veja [`docs/TELEFONIA_MOVEL_DOCUMENTACAO.md`](./docs/TELEFONIA_MOVEL_DOCUMENTACAO.md).
+>
+> ⚠️ **Status atual (jul/2026):** a coleta de Telefonia Móvel para 2026 está pausada — a ANATEL não preencheu os campos `UF`/`Código Nacional` para parte dos registros de jan-mar/2026. Aguardando correção da fonte.
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+anatel/
+│
+├── notebooks/
+│   └── etl_anatel_neon.ipynb      # notebook principal de ETL (roda no Google Colab)
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py                   # conexão com o Neon (via variáveis de ambiente)
+│   ├── extract.py                  # coleta dos dados brutos (ZIP e automação de navegador)
+│   ├── transform.py                # limpeza, padronização e agregação
+│   └── load.py                     # carga dos dataframes no Neon
+│
+├── scripts/
+│   └── ...                         # scripts avulsos de teste/depuração local
+│
+├── docs/
+│   ├── README.md                    # índice da documentação técnica
+│   ├── DOCUMENTACAO.md              # visão geral e histórico de decisões do projeto
+│   ├── EXTRACT_DOCUMENTACAO.md      # detalhamento do módulo extract.py
+│   ├── TRANSFORM_DOCUMENTACAO.md    # detalhamento do módulo transform.py
+│   └── AUTOMACAO_NAVEGADOR_DOCUMENTACAO.md  # automação via Playwright, passo a passo
+│
+├── sql/                              # scripts de criação de tabelas (opcional)
+├── dashboard/
+│   └── README.md                    # descrição/prints do dashboard Power BI
+│
+├── .env.example                      # modelo de variáveis de ambiente (sem valores reais)
+├── .gitignore
+├── requirements.txt
+└── README.md                         # este arquivo
+```
+
+---
 
 ```mermaid
 flowchart LR
