@@ -44,7 +44,7 @@ flowchart TD
 >
 > A fonte de Telefonia Móvel tem o maior volume do projeto (10+ milhões de linhas por semestre) e exigiu leitura em chunks, agregação incremental e um checkpoint de qualidade de dados. Veja [`docs/TELEFONIA_MOVEL_DOCUMENTACAO.md`](./docs/TELEFONIA_MOVEL_DOCUMENTACAO.md).
 >
-> ⚠️ **Status atual (jul/2026):** a coleta de Telefonia Móvel para 2026 está pausada — a ANATEL não preencheu os campos `UF`/`Código Nacional` para parte dos registros de jan-mar/2026. Aguardando correção da fonte.
+
 
 ---
 
