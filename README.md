@@ -101,6 +101,18 @@ anatel/
 ---
 
 
+## 👤 Autor
+
+**Gabriel Prata**
+Especialista em Business Intelligence (BI) | Cientista de Dados | Data Viz Developer | Analytics Engineer
+
+📍 Rio de Janeiro - Brasil
+
+💼 Focado em Analytics, Ciência de Dados, Forecasting e Business Intelligence
+
+Built with Data, Analytics & Coffee
+
+---
 
 # Painel Telefonia Móvel
 
