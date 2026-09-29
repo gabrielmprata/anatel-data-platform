@@ -110,7 +110,7 @@ Especialista em Business Intelligence (BI) | Cientista de Dados | Data Viz Devel
 
 💼 Focado em Analytics, Ciência de Dados, Forecasting e Business Intelligence
 
-Built with Data, Analytics & Coffee
+Built with Data, Analytics & Coffee ☕
 
 ---
 
