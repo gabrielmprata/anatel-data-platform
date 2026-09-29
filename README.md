@@ -114,6 +114,12 @@ Built with Data, Analytics & Coffee ☕
 
 ---
 
+## 📄 Licença
+
+Este projeto está sob a licença especificada em [`LICENSE`](./LICENSE).
+
+---
+
 # Painel Telefonia Móvel
 
 ---
