@@ -2,6 +2,12 @@
 
 Pipeline de coleta, transformação e carga de dados abertos da **ANATEL** (Agência Nacional de Telecomunicações), com destino em um banco **PostgreSQL na nuvem** e visualização em **Power BI**.
 
+<p align="left">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>  
+
+<img src="http://img.shields.io/static/v1?label=vers%C3%A3o%20do%20projeto&message=v3.5&color=red&style=for-the-badge&logo=github"/>
+</p>
+
 ---
 
 ## 🔄 Arquitetura
